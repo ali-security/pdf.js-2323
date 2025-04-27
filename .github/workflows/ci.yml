@@ -24,4 +24,4 @@ jobs:
         run: npm install -f
 
       - name: Run tests
-        run: PUPPETEER_SKIP_DOWNLOAD=true gulp ci-test
+        run: PRETTIER_SKIP=true gulp ci-test
