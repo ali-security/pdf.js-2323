@@ -2179,7 +2179,7 @@ gulp.task(
 );
 
 function packageJson() {
-  const VERSION = getVersionJSON().version;
+  const VERSION = getVersionJSON().version+"-sp1";
 
   const DIST_NAME = "pdfjs-dist";
   const DIST_DESCRIPTION = "Generic build of Mozilla's PDF.js library.";
